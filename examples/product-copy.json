@@ -1,0 +1,27 @@
+{
+  "source": {
+    "headline": "AeroBottle keeps drinks cold for 24 hours.",
+    "care": "Hand wash only. Do not put it in the dishwasher."
+  },
+  "rules": {
+    "source_language": "English",
+    "target_language": "Korean",
+    "audience": "Korean online shoppers",
+    "style": "Natural, polite product copy. Preserve quantities, product claims and care instructions.",
+    "glossary": [{"source": "AeroBottle", "target": "에어로보틀"}],
+    "forbidden_terms": ["세계 최고"]
+  },
+  "max_attempts": 2,
+  "good_delivery": {
+    "headline": "에어로보틀은 음료를 24시간 동안 차갑게 유지합니다.",
+    "care": "손으로만 세척해 주세요. 식기세척기에 넣지 마세요."
+  },
+  "material_error_delivery": {
+    "headline": "에어로보틀은 음료를 48시간 동안 차갑게 유지합니다.",
+    "care": "손으로만 세척해 주세요. 식기세척기에 넣지 마세요."
+  },
+  "literal_error_delivery": {
+    "headline": "음료를 24시간 동안 차갑게 유지합니다.",
+    "care": "손으로만 세척해 주세요. 식기세척기에 넣지 마세요."
+  }
+}

@@ -1,0 +1,11 @@
+.venv/
+.cache/
+.pytest_cache/
+__pycache__/
+*.pyc
+.env
+*.key
+deployments/local-*.json
+node_modules/
+artifacts/
+test-results.xml

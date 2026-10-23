@@ -1,0 +1,116 @@
+{
+  "ctor": {
+    "params": [],
+    "kwparams": {}
+  },
+  "methods": {
+    "abandon": {
+      "params": [
+        [
+          "job_id",
+          "int"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "any",
+      "payable": false
+    },
+    "cancel": {
+      "params": [
+        [
+          "job_id",
+          "int"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "any",
+      "payable": false
+    },
+    "create_job": {
+      "params": [
+        [
+          "translator",
+          "address"
+        ],
+        [
+          "source_json",
+          "string"
+        ],
+        [
+          "rules_json",
+          "string"
+        ],
+        [
+          "max_attempts",
+          "int"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "int",
+      "payable": false
+    },
+    "evaluate": {
+      "params": [
+        [
+          "job_id",
+          "int"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "any",
+      "payable": false
+    },
+    "get_attempt": {
+      "params": [
+        [
+          "job_id",
+          "int"
+        ],
+        [
+          "attempt",
+          "int"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": true,
+      "ret": "string"
+    },
+    "get_job": {
+      "params": [
+        [
+          "job_id",
+          "int"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": true,
+      "ret": "string"
+    },
+    "get_next_id": {
+      "params": [],
+      "kwparams": {},
+      "readonly": true,
+      "ret": "int"
+    },
+    "submit": {
+      "params": [
+        [
+          "job_id",
+          "int"
+        ],
+        [
+          "translation_json",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "any",
+      "payable": false
+    }
+  }
+}

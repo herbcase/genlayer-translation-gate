@@ -1,0 +1,459 @@
+{
+  "network": "studionet",
+  "chainId": 61999,
+  "rpc": "https://studio.genlayer.com/api",
+  "contractAddress": "0xAFc70827e216828a2b5a7Bc72A3edB30306724B4",
+  "sourceSha256": "4ae36782d08ea7030a791e9bc74a8de43717d7971c5a403d45c15284f8d10b28",
+  "recordedAt": "2026-10-23T15:10:16.673Z",
+  "deploymentWallet": "Dedicated disposable development account; not the Portal-linked user wallet",
+  "transactions": [
+    {
+      "action": "deployment",
+      "hash": "0xf6ffd62e409e2c48f34dfc9937065a601ed01124e6cd75ee774ba94cf49edf04",
+      "status": "FINALIZED",
+      "result": "MAJORITY_AGREE",
+      "leaderOnly": false,
+      "validatorVotes": [
+        "AGREE",
+        "AGREE",
+        "AGREE",
+        "AGREE",
+        "AGREE"
+      ],
+      "validatorAddresses": [
+        "0xbA3882e89727dBEc10Ca6D6C949ba80e2cc54862",
+        "0x180353Bf946fd524ABb92F53D300b35c5b81a5F9",
+        "0x2a83d3390Bac4fE7C215F34adc33c92e4fB24315",
+        "0xEB77d8E49AB68C04f36F9235EcD5a60527e8f797",
+        "0x46FE5a474aaa3e30923fe7414511CD561c354e50"
+      ],
+      "executionResults": [
+        {
+          "mode": "validator",
+          "vote": "agree",
+          "result": "SUCCESS"
+        },
+        {
+          "mode": "validator",
+          "vote": "agree",
+          "result": "SUCCESS"
+        },
+        {
+          "mode": "validator",
+          "vote": "agree",
+          "result": "SUCCESS"
+        },
+        {
+          "mode": "validator",
+          "vote": "agree",
+          "result": "SUCCESS"
+        },
+        {
+          "mode": "leader",
+          "vote": null,
+          "result": "SUCCESS",
+          "returnStatus": "return"
+        },
+        {
+          "mode": "validator",
+          "vote": "agree",
+          "result": "SUCCESS",
+          "returnStatus": "return"
+        }
+      ]
+    },
+    {
+      "action": "create",
+      "jobId": "1",
+      "hash": "0xc964190240ca05a6a83d53ca254ac97e93b9f387baf9ca9f63ffc68077d93258",
+      "status": "FINALIZED",
+      "result": "MAJORITY_AGREE",
+      "leaderOnly": false,
+      "validatorVotes": [
+        "IDLE",
+        "IDLE",
+        "AGREE",
+        "AGREE",
+        "AGREE"
+      ],
+      "validatorAddresses": [
+        "0x36464b74fBc5284C1D8F8BbF28297483f2f6d3fe",
+        "0xF1380FeBb4393BDc50A3a696Fe2307Fb0Fe3242A",
+        "0x7C406f54cA56f450f99d6F72e633d8e5BF77E953",
+        "0x3b6CAcB3128D579bc6d75b04A2cA3a416fADA7Db",
+        "0x2a83d3390Bac4fE7C215F34adc33c92e4fB24315"
+      ],
+      "executionResults": [
+        {
+          "mode": "validator",
+          "vote": "idle",
+          "result": "ERROR"
+        },
+        {
+          "mode": "validator",
+          "vote": "agree",
+          "result": "SUCCESS"
+        },
+        {
+          "mode": "validator",
+          "vote": "agree",
+          "result": "SUCCESS"
+        },
+        {
+          "mode": "validator",
+          "vote": "agree",
+          "result": "SUCCESS"
+        },
+        {
+          "mode": "leader",
+          "vote": null,
+          "result": "SUCCESS",
+          "returnStatus": "return"
+        },
+        {
+          "mode": "validator",
+          "vote": "idle",
+          "result": "ERROR",
+          "returnStatus": "contract_error"
+        }
+      ]
+    },
+    {
+      "action": "submit",
+      "jobId": "1",
+      "delivery": "material_error_delivery",
+      "hash": "0xe8ea940174d821f96d58494c8645750feda64b75e272813f19cdc4527d446e52",
+      "status": "FINALIZED",
+      "result": "MAJORITY_AGREE",
+      "leaderOnly": false,
+      "validatorVotes": [
+        "AGREE",
+        "AGREE",
+        "AGREE",
+        "AGREE",
+        "AGREE"
+      ],
+      "validatorAddresses": [
+        "0x1dA73F703217363Bce00637D089dF19204D6a6D6",
+        "0xEB77d8E49AB68C04f36F9235EcD5a60527e8f797",
+        "0x180353Bf946fd524ABb92F53D300b35c5b81a5F9",
+        "0x7C406f54cA56f450f99d6F72e633d8e5BF77E953",
+        "0x3adF12b6772d0aa7a44CFC909cF74faba008C5C3"
+      ],
+      "executionResults": [
+        {
+          "mode": "validator",
+          "vote": "agree",
+          "result": "SUCCESS"
+        },
+        {
+          "mode": "validator",
+          "vote": "agree",
+          "result": "SUCCESS"
+        },
+        {
+          "mode": "validator",
+          "vote": "agree",
+          "result": "SUCCESS"
+        },
+        {
+          "mode": "validator",
+          "vote": "agree",
+          "result": "SUCCESS"
+        },
+        {
+          "mode": "leader",
+          "vote": null,
+          "result": "SUCCESS",
+          "returnStatus": "return"
+        },
+        {
+          "mode": "validator",
+          "vote": "agree",
+          "result": "SUCCESS",
+          "returnStatus": "return"
+        }
+      ]
+    },
+    {
+      "action": "evaluate",
+      "jobId": "1",
+      "hash": "0x06a5bda955236844e4be4fe4d459c9d169c7c2f99df2a48e19bbeac991c23ca5",
+      "status": "FINALIZED",
+      "result": "MAJORITY_AGREE",
+      "leaderOnly": false,
+      "validatorVotes": [
+        "AGREE",
+        "IDLE",
+        "AGREE",
+        "DISAGREE",
+        "AGREE"
+      ],
+      "validatorAddresses": [
+        "0xDd12C0423F85e9Ca5015a8F2E56fD92F89181Efa",
+        "0x2a83d3390Bac4fE7C215F34adc33c92e4fB24315",
+        "0xcBd21Be9C907e6C0d69ce1a3B4b108F13C86C14D",
+        "0x140b18Bc11585CC705D7114d19B11E77d2b234FA",
+        "0x6897dFBE7c40944a8dC75c1601d323d272F485aF"
+      ],
+      "executionResults": [
+        {
+          "mode": "validator",
+          "vote": "idle",
+          "result": "ERROR"
+        },
+        {
+          "mode": "validator",
+          "vote": "agree",
+          "result": "SUCCESS"
+        },
+        {
+          "mode": "validator",
+          "vote": "disagree",
+          "result": "SUCCESS"
+        },
+        {
+          "mode": "validator",
+          "vote": "agree",
+          "result": "SUCCESS"
+        },
+        {
+          "mode": "leader",
+          "vote": null,
+          "result": "SUCCESS",
+          "returnStatus": "return"
+        },
+        {
+          "mode": "validator",
+          "vote": "agree",
+          "result": "SUCCESS",
+          "returnStatus": "return"
+        }
+      ]
+    },
+    {
+      "action": "submit",
+      "jobId": "1",
+      "delivery": "good_delivery",
+      "hash": "0x4579de1fda424f5642b1fcc460ab51e72a8dabbc13f7511a0f1628dcaa80aca9",
+      "status": "FINALIZED",
+      "result": "MAJORITY_AGREE",
+      "leaderOnly": false,
+      "validatorVotes": [
+        "AGREE",
+        "AGREE",
+        "AGREE",
+        "AGREE",
+        "AGREE"
+      ],
+      "validatorAddresses": [
+        "0x3b00cbB7d5d1c6D75C89BC376600813Ac12d5C96",
+        "0xDd12C0423F85e9Ca5015a8F2E56fD92F89181Efa",
+        "0xcBd21Be9C907e6C0d69ce1a3B4b108F13C86C14D",
+        "0x3adF12b6772d0aa7a44CFC909cF74faba008C5C3",
+        "0xD83D07f4d8C8119D6a735834099e96F6bfdEf02f"
+      ],
+      "executionResults": [
+        {
+          "mode": "validator",
+          "vote": "agree",
+          "result": "SUCCESS"
+        },
+        {
+          "mode": "validator",
+          "vote": "agree",
+          "result": "SUCCESS"
+        },
+        {
+          "mode": "validator",
+          "vote": "agree",
+          "result": "SUCCESS"
+        },
+        {
+          "mode": "validator",
+          "vote": "agree",
+          "result": "SUCCESS"
+        },
+        {
+          "mode": "leader",
+          "vote": null,
+          "result": "SUCCESS",
+          "returnStatus": "return"
+        },
+        {
+          "mode": "validator",
+          "vote": "agree",
+          "result": "SUCCESS",
+          "returnStatus": "return"
+        }
+      ]
+    },
+    {
+      "action": "evaluate",
+      "jobId": "1",
+      "hash": "0xe50664c7bb6f51d70cfe599891f9aa5292b8240326a8e6e3c22bc287cb7389b0",
+      "status": "FINALIZED",
+      "result": "MAJORITY_AGREE",
+      "leaderOnly": false,
+      "validatorVotes": [
+        "IDLE",
+        "AGREE",
+        "AGREE",
+        "IDLE",
+        "AGREE"
+      ],
+      "validatorAddresses": [
+        "0xD83D07f4d8C8119D6a735834099e96F6bfdEf02f",
+        "0xcBd21Be9C907e6C0d69ce1a3B4b108F13C86C14D",
+        "0x3b6CAcB3128D579bc6d75b04A2cA3a416fADA7Db",
+        "0x7256863ADdB9e67718B5CfEC5cE7165E420ad46b",
+        "0x1dA73F703217363Bce00637D089dF19204D6a6D6"
+      ],
+      "executionResults": [
+        {
+          "mode": "validator",
+          "vote": "agree",
+          "result": "SUCCESS"
+        },
+        {
+          "mode": "validator",
+          "vote": "agree",
+          "result": "SUCCESS"
+        },
+        {
+          "mode": "validator",
+          "vote": "idle",
+          "result": "ERROR"
+        },
+        {
+          "mode": "validator",
+          "vote": "agree",
+          "result": "SUCCESS"
+        },
+        {
+          "mode": "leader",
+          "vote": null,
+          "result": "SUCCESS",
+          "returnStatus": "return"
+        },
+        {
+          "mode": "validator",
+          "vote": "idle",
+          "result": "ERROR",
+          "returnStatus": "contract_error"
+        }
+      ]
+    }
+  ],
+  "job": {
+    "attempt": 2,
+    "client": "0x0526c6cbe34B186bD130f3FA97276301100dF218",
+    "delivery": {
+      "care": "손으로만 세척해 주세요. 식기세척기에 넣지 마세요.",
+      "headline": "에어로보틀은 음료를 24시간 동안 차갑게 유지합니다."
+    },
+    "max_attempts": 2,
+    "report": {
+      "assessment": {
+        "care": {
+          "complete": true,
+          "language": true,
+          "meaning": true,
+          "style": true
+        },
+        "headline": {
+          "complete": true,
+          "language": true,
+          "meaning": true,
+          "style": true
+        }
+      },
+      "findings": [],
+      "method": "independent_ai_consensus",
+      "passed": true
+    },
+    "rubric_version": "translation-gate-v1",
+    "rules": {
+      "audience": "Korean online shoppers",
+      "forbidden_terms": [
+        "세계 최고"
+      ],
+      "glossary": [
+        {
+          "source": "AeroBottle",
+          "target": "에어로보틀"
+        }
+      ],
+      "source_language": "English",
+      "style": "Natural, polite product copy. Preserve quantities, product claims and care instructions.",
+      "target_language": "Korean"
+    },
+    "source": {
+      "care": "Hand wash only. Do not put it in the dishwasher.",
+      "headline": "AeroBottle keeps drinks cold for 24 hours."
+    },
+    "status": "ACCEPTED",
+    "translator": "0xECb51b1Ad64fF634114fd95e8375880F69cC0282"
+  },
+  "history": [
+    {
+      "attempt": 1,
+      "delivery": {
+        "care": "손으로만 세척해 주세요. 식기세척기에 넣지 마세요.",
+        "headline": "에어로보틀은 음료를 48시간 동안 차갑게 유지합니다."
+      },
+      "report": {
+        "assessment": {
+          "care": {
+            "complete": true,
+            "language": true,
+            "meaning": true,
+            "style": true
+          },
+          "headline": {
+            "complete": true,
+            "language": true,
+            "meaning": false,
+            "style": true
+          }
+        },
+        "findings": [
+          {
+            "code": "AI_MEANING_FAILED",
+            "segment": "headline"
+          }
+        ],
+        "method": "independent_ai_consensus",
+        "passed": false
+      },
+      "status": "REVISION_REQUIRED"
+    },
+    {
+      "attempt": 2,
+      "delivery": {
+        "care": "손으로만 세척해 주세요. 식기세척기에 넣지 마세요.",
+        "headline": "에어로보틀은 음료를 24시간 동안 차갑게 유지합니다."
+      },
+      "report": {
+        "assessment": {
+          "care": {
+            "complete": true,
+            "language": true,
+            "meaning": true,
+            "style": true
+          },
+          "headline": {
+            "complete": true,
+            "language": true,
+            "meaning": true,
+            "style": true
+          }
+        },
+        "findings": [],
+        "method": "independent_ai_consensus",
+        "passed": true
+      },
+      "status": "ACCEPTED"
+    }
+  ]
+}

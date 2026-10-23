@@ -1,0 +1,23 @@
+name: Contract checks
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  direct-tests:
+    runs-on: ubuntu-latest
+    env:
+      GENVM_VERSION: v0.2.16
+      GLTEST_SDK_CACHE: ${{ github.workspace }}/.cache/gltest-direct
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - uses: actions/cache@v4
+        with:
+          path: .cache/gltest-direct
+          key: genvm-v0.2.16-translation-gate-1
+      - run: python -m pip install -r requirements-dev.txt
+      - run: python -m pytest -q --junitxml=test-results.xml
+      - run: python scripts/check_contract.py

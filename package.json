@@ -1,0 +1,7 @@
+{
+  "name": "genlayer-translation-gate",
+  "private": true,
+  "type": "module",
+  "scripts": {"verify:live": "node scripts/verify_deployment.mjs"},
+  "dependencies": {"genlayer-js": "1.1.8"}
+}
