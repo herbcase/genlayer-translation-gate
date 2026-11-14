@@ -1,0 +1,41 @@
+{
+  "network": "studionet",
+  "chainId": 61999,
+  "createdAt": "2026-11-14T14:34:25.568Z",
+  "transactions": [
+    {
+      "hash": "0x59089242158ee2075c42144e52caee3b94cd72c9397559c640f4c7312ed5c09b",
+      "result": "MAJORITY_AGREE"
+    },
+    {
+      "hash": "0x58abce4a2415d4aeab98b3fb89f9e1718e2cc4f0c5c035951956567f93df65c7",
+      "result": "MAJORITY_AGREE"
+    },
+    {
+      "hash": "0xd9c00e1f9d9bb3bbd2931f8798b17186925b6a8571926079aee67344db85491d",
+      "result": "MAJORITY_AGREE"
+    },
+    {
+      "hash": "0x540477c4f482bf1272ee992f5ffcd9bfac7b5a9aff86168be17272fbe81310bf",
+      "result": "MAJORITY_AGREE"
+    }
+  ],
+  "address": "0x2e1C4151d932a8d74854B86dEb03f7191F2332d8",
+  "result": {
+    "status": "ACCEPTED",
+    "report": {
+      "assessment": {
+        "text": {
+          "complete": true,
+          "language": true,
+          "meaning": true,
+          "style": true
+        }
+      },
+      "findings": [],
+      "method": "independent_ai_consensus",
+      "passed": true
+    }
+  }
+}
+
